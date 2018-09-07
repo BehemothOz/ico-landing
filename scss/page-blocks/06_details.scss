@@ -1,0 +1,47 @@
+.details {
+    padding: 90px 0 0;
+    background-color: $white;
+
+    .details-title {
+        margin-bottom: 30px;
+    }
+}
+
+.details_row {
+    @include cf();
+
+    &:first-of-type {
+        .details_cell {
+            border-top: none;
+        }
+    }
+
+    .details_cell {
+        float: left;
+        width: calc(50% - 15px);
+        // min-height: 181px;
+        padding: 22px 0 24px;
+        color: $black-0;
+        border-top: 1px solid $black-9;
+
+        &:nth-of-type(even) {
+            margin-left: 15px;
+        }
+
+        &:nth-of-type(odd) {
+            margin-right: 15px;
+        }
+
+        .title {
+            margin-bottom: 14px;
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 1.43;
+        }
+
+        .desc {
+            font-size: 17px;
+            line-height: 1.76;
+        }
+    }
+}

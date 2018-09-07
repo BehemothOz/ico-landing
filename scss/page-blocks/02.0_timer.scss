@@ -1,0 +1,105 @@
+.timer-block {
+    padding: 30px 0 10px;
+    color: $black-4;
+    background-color: $white;
+
+    .circle-bonus-wrapper {
+        position: relative;
+        float: left;
+        width: 270px;
+        min-height: 1px;
+
+        .circle-bonus {
+            position: absolute;
+            top: -85px;
+            width: 214px;
+            height: 214px;
+            background-color: $yellow_dark;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .bonus {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $black;
+
+            & > span {
+                display: block;
+            }
+
+            .num {
+                font-size: 70px;
+                font-weight: 300;
+                text-align: center;
+            }
+
+            .desc {
+                font-size: 20px;
+                letter-spacing: 1px;
+                text-align: center;
+                text-transform: uppercase
+            }
+        }
+    }
+
+    .timer{
+        float: left;
+    } 
+
+    .dial {
+        width: 387px;
+    }
+
+    .dial-item {
+        position: relative;
+        float: left;
+        width: 78px;
+        margin-right: 25px;
+        text-align: center;
+
+        &::after {
+            content: ':';
+            position: absolute;
+            top: 0;
+            right: -17px;
+            font-size: 34px;
+        }
+
+        .number {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 0.8;
+            text-align: center;
+        }
+
+        .time {
+            display: block;
+            font-size: 15px;
+            line-height: 2.67;
+            letter-spacing: 0.9px;
+            text-align: center;
+            letter-spacing: 0.8px;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+
+            &::after {
+                content: '';
+            }
+        }
+    }
+
+    .timer-desc {
+        float: left;
+        width: calc(100% - 270px - 387px - 10px);
+        margin-left: 10px;
+        padding: 0 80px 10px 25px;
+        font-size: 20px;
+        line-height: 1.35;
+        border-left: solid 1px $black-9;
+    }
+}

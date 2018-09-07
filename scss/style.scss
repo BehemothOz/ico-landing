@@ -1,0 +1,43 @@
+
+// ================
+// Глобальные стили
+// ================
+
+@import 'global/variables';
+@import 'global/mixins';
+
+@import 'global/normalize';
+@import 'global/fonts';
+@import 'global/global';
+
+
+// ==========
+// Компоненты
+// ==========
+@import 'components/circle';
+@import 'components/animate';
+@import 'components/popup';
+@import 'components/alert-message';
+
+
+// =============
+// Блоки страниц
+// =============
+
+@import 'page-blocks/01_header';
+@import 'page-blocks/02.0_timer';
+@import 'page-blocks/02_about';
+@import 'page-blocks/03_technology';
+@import 'page-blocks/04_project-plan';
+@import 'page-blocks/05_project-goal';
+@import 'page-blocks/06_details';
+@import 'page-blocks/07.0_description-list';
+@import 'page-blocks/07.1_structure';
+@import 'page-blocks/07.2_bonuses';
+@import 'page-blocks/07.3_period';
+@import 'page-blocks/07.4_award';
+@import 'page-blocks/08_documents';
+@import 'page-blocks/09_team';
+@import 'page-blocks/10_subscription';
+@import 'page-blocks/11_main-footer';
+@import 'page-blocks/12_press';

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M32 23l-16 8V15z"/>
+        <ellipse cx="22" cy="22" stroke="#FFF" stroke-width="2" rx="21" ry="21"/>
+    </g>
+</svg>

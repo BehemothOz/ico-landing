@@ -1,0 +1,11 @@
+.alert-message {
+    padding: 10px 0;
+    background-color: #e55c50;
+    text-align: center;
+
+    .message {
+        font-size: 17px;
+        line-height: 22px;
+        color: $white;
+    }
+}

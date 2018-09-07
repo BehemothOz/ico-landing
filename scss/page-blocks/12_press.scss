@@ -1,0 +1,29 @@
+.press {
+    padding: 90px 0 40px;
+    background-color: $blue_light;
+
+    .press-title {
+        text-align: center;
+    }
+
+    .press-list {
+        padding-top: 80px;
+        text-align: center;
+
+        .press-link {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 75px;
+            margin-bottom: 50px;
+
+            &:nth-of-type(4),
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        .press-logo {
+            display: inline-block;
+        }
+    }
+}

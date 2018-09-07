@@ -1,0 +1,46 @@
+.bonuses {
+    padding: 89px 0;
+    @include cf();
+
+    .chart-block {
+        height: 279px;
+
+        .scale {
+            &.scale-25 {
+                .middle {
+                    height: 186px;
+                }
+            }
+
+            &.scale-20 {
+                .middle {
+                    height: 150px;
+                }
+            }
+
+            &.scale-15 {
+                .middle {
+                    height: 113px;
+                }
+            }
+
+            &.scale-10 {
+                .middle {
+                    height: 75px;
+                }
+            }
+
+            &.scale-5 {
+                .middle {
+                    height: 39px;
+                }
+            }
+
+            &.scale-0 {
+                .middle {
+                    height: 0px;
+                }
+            }
+        }
+    }
+}

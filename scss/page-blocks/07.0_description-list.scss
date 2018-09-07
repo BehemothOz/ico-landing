@@ -1,0 +1,122 @@
+.description-list {
+    position: relative;
+    padding: 200px 0 98px;
+    background: url('../img/bg1.svg') no-repeat 50% top;
+    background-color: $white;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-image: linear-gradient(215deg, #474e5a, #333a44);
+    }
+
+    .description_heading {
+        float: left;
+        width: 460px;
+
+        padding-right: 84px;
+        color: $white;
+
+        .title {
+            margin-bottom: 30px;
+        }
+
+        .desc {
+            font-size: 21px;
+            line-height: 1.4;
+        }
+    }
+
+    // Блок с графиками
+    .chart-block {
+        $fullWidth: 85px + 40px;
+        $fullWidthNarrow: 131px + 15px;
+
+        position: relative;
+        float: left;
+        width: 710px;
+
+        .scale {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 85px;
+
+            &.scale_narrow {
+                width: 131px;
+
+                .middle {
+                    height: 50px;
+                }
+
+                &.scale_narrow-25-1 {
+                    left: $fullWidthNarrow;
+                }
+
+                &.scale_narrow-25-2 {
+                    left: $fullWidthNarrow * 2;
+                }
+
+                &.scale_narrow-15 {
+                    left: $fullWidthNarrow * 3;
+                }
+
+                &.scale_narrow-10 {
+                    left: $fullWidthNarrow * 4;
+                }
+            }
+
+            .top {
+                margin-bottom: 4px;
+                font-size: 40px;
+                font-weight: 300;
+                color: $white;
+
+                b {
+                    font-size: 35px;
+                    font-weight: 300;
+                    color: $black-7;
+                }
+            }
+
+            .middle {
+                background-color: $black-5;
+            }
+
+            .bottom {
+                margin-top: 7px;
+                font-size: 16px;
+                line-height: 1.76;
+                color: $white;
+                white-space: nowrap;
+            }
+
+            &.scale-20 {
+                left: $fullWidth;
+            }
+
+            &.scale-15 {
+                left: $fullWidth * 2;
+            }
+
+            &.scale-10 {
+                left: $fullWidth * 3;
+            }
+
+            &.scale-5 {
+                left: $fullWidth * 4;
+            }
+
+            &.scale-0 {
+                left: $fullWidth * 5;
+            }
+        }
+
+        .scale > span {
+            display: block;
+        }
+    }
+}

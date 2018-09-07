@@ -1,0 +1,67 @@
+.about {
+    position: relative;
+    padding: 90px 0 59px;
+    background-color: $white;
+
+    .about-more {
+        margin-left: 270px;
+        pointer-events: none;
+    }
+
+    .more-wrap {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+
+        &:hover {
+            .more {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.about_heading {
+    margin-left: 270px;
+    margin-bottom: 68px;
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .desc {
+        font-size: 21px;
+        line-height: 1.29;
+        color: $black-8;
+    }
+}
+
+.about_table {
+    color: $black-0;
+}
+
+.about_row {
+    padding: 17px 0 40px;
+    border-bottom: solid 1px $black-9;
+    @include cf();
+
+    &:last-of-type {
+        border: none;
+    }
+
+    .title-cell {
+        float: left;
+        width: 240px;
+        font-size: 17px;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+
+    .desc_cell {
+        float: left;
+        width: calc(100% - 240px);
+        padding: 0 30px;
+        font-size: 17px;
+        line-height: 1.4;
+    }
+}

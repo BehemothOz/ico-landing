@@ -1,0 +1,135 @@
+.subscription {
+    padding: 80px 0 55px;
+    color: $white;
+    background-image: linear-gradient(263deg, #616a79, #2f3640);
+}
+
+.subscription-title {
+    margin-bottom: 45px;
+    color: $white;
+    text-align: center;
+}
+
+.sub-form-wrapper {
+    position: relative;
+    width: 480px;
+    margin: 0 auto 50px;
+
+    .input {
+        width: 100%;
+        height: 50px;
+        padding: 0 184px 0 34px;
+        font-size: 19px;
+        color: $white;
+        border-radius: 4px;
+        border: solid 1px $white;
+        background-color: transparent;
+    }
+
+    .sub-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 184px;
+        // padding: 15px 0;
+        font-size: 18px;
+        color: $main-color;
+        text-align: center;
+        background-color: $yellow_dark;
+        border-radius: 4px;
+        transition: background 0.3s ease;
+
+        &:hover {
+            background-color: $yellow_dark-hvr;
+        }
+    }
+
+    .sub-success {
+        padding: 10px 0;
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+.social-list-wrapper {
+    text-align: center;
+
+    .title {
+        font-size: 21px;
+    }
+
+    .social-list {
+        padding: 25px 0;
+
+        .social-item {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 25px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            .social-link {
+                background-size: 100% 100%;
+            }
+
+            &.reddit {
+                .social-link {
+                    background-image: url('../img/social/ic-reddit.svg');
+                }
+            }
+
+            &.twitter {
+                .social-link {
+                    background-image: url('../img/social/ic-twitter.svg');
+                }
+            }
+
+            &.ff {
+                .social-link {
+                    background-image: url('../img/social/ic-facebook.svg');
+                }
+            }
+
+            &.slack {
+                .social-link {
+                    background-image: url('../img/social/ic-slack.svg');
+                }
+            }
+
+            &.telegram {
+                .social-link {
+                    background-image: url('../img/social/ic-telergam.svg');
+                }
+            }
+
+            &.bittalk {
+                .social-link {
+                    background-image: url('../img/social/ic-bittalk.svg');
+                }
+            }
+
+            &.gitbook {
+                .social-link {
+                    background-image: url('../img/social/ic-gitbook.svg');
+                }
+            }
+
+            &.medium {
+                .social-link {
+                    background-image: url('../img/social/ic-medium.svg');
+                }
+            }
+        }
+
+        .social-link {
+            display: block;
+            width: 26px;
+            height: 23px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

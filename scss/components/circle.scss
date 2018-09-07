@@ -1,0 +1,89 @@
+
+.circle {
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.circle-header_max {
+    top: -60px;
+    left: -245px;
+
+    width: 473px;
+    height: 426px;
+    background-image: url('../img/circle/crl-header_0.svg');
+}
+
+.circle-header_md {
+    right: -200px;
+    bottom: -300px;
+
+    width: 416px;
+    height: 424px;
+    background-image: url('../img/circle/crl-header_2.svg');
+}
+
+.circle-header_min {
+    top: 90px;
+    right: -85px;
+
+    width: 176px;
+    height: 180px;
+    background-image: url('../img/circle/crl-header_1.svg');
+}
+
+
+.circle-about_max {
+    left: -300px;
+    top: 610px;
+
+    width: 280px;
+    height: 288px;
+    background-image: url('../img/circle/crl-bg-white.svg');
+}
+
+.circle-about_min {
+    top: 475px;
+    right: -180px;
+
+    width: 160px;
+    height: 164px;
+    background-image: url('../img/circle/crl-bg-white.svg');
+}
+
+.circle-goal_max {
+    right: -300px;
+    bottom: -150px;
+
+    width: 388px;
+    height: 396px;
+    background-image: url('../img/circle/crl-goal.svg');
+}
+
+.circle-goal_min {
+    top: 0;
+    left: -330px;
+
+    width: 227px;
+    height: 232px;
+    background-image: url('../img/circle/crl-goal.svg');
+}
+
+.circle-details_max {
+    top: 0;
+    right: 250px;
+    width: 238px;
+    height: 244px;
+    background-image: url('../img/circle/crl-bg-white.svg');
+}
+
+.circle-details_min {
+    top: 40px;
+    right: 30px;
+    width: 159px;
+    height: 163px;
+    background-image: url('../img/circle/crl-bg-white.svg');
+}

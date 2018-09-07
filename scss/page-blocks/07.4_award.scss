@@ -1,0 +1,41 @@
+.award {
+    padding: 84px 0 0;
+    @include cf();
+
+    .description_heading {
+        padding-right: 66px;
+    }
+
+    .chart-block {
+        height: 410px;
+
+        .scale {
+            .bottom {
+                height: 48px;
+                font-size: 12px;
+                line-height: 1.33;
+                white-space: normal;
+            }
+
+            &.scale_narrow-25-0,
+            &.scale_narrow-25-1,
+            &.scale_narrow-25-2 {
+                .middle {
+                    height: 160px;
+                }
+            }
+
+            &.scale_narrow-15 {
+                .middle {
+                    height: 100px;
+                }
+            }
+
+            &.scale_narrow-10 {
+                .middle {
+                    height: 60px;
+                }
+            }
+        }
+    }
+}

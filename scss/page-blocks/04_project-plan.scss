@@ -1,0 +1,160 @@
+.project-plan {
+    padding: 98px 0 75px;
+    height: 1576px; // TODO: Обойтись без высоты
+    background: url('../img/bg3.svg') no-repeat;
+    background-position: center;
+    background-color: $white;
+
+    .plan-title {
+        margin-bottom: 70px;
+    }
+
+    .plan-row {
+        @include cf();
+
+        &.plan-row_first {
+            margin-bottom: 40px;
+
+            .plan-item {
+                float: left;
+
+                &:first-of-type {
+                    padding-right: 136px;
+                    padding-left: 35px;
+                }
+
+                &:last-of-type {
+                    padding-right: 188px;
+                    padding-left: 35px;
+                }
+            }
+        }
+
+        &.plan-row_second {
+            margin-bottom: 127px;
+        }
+    }
+
+    .plan-item {
+        float: right;
+        padding-left: 35px;
+
+        &:first-of-type {
+            width: calc(50% - 25px);
+            padding-left: 173px;
+        }
+
+        &:last-of-type {
+            width: calc(50% + 25px);
+            padding-left: 242px;
+        }
+
+        &.active {
+            .number {
+                background-color: $yellow_dark;
+                transition: all 0.3s ease;
+            }
+        }
+
+        &.plan-item_first {
+            height: 436px;
+        }
+
+        &.plan-item_second {
+            height: 344px;
+        }
+
+        &.plan-item_third {
+            height: 344px;
+        }
+
+        &.plan-item_fourth {
+            height: 344px;
+        }
+
+        .price {
+            margin-bottom: 24px;
+            font-size: 30px;
+            font-weight: 300;
+            color: $black-41;
+        }
+
+        .number {
+            position: relative;
+            width: 44px;
+            height: 44px;
+
+            font-size: 20px;
+            line-height: 42px;
+            color: $white;
+            text-align: center;
+            background-color: rgba(65, 73, 85, 0.98);
+            border-radius: 50%;
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                border: 1px dashed $black-41;
+                border-radius: 50%;
+            }
+        }
+
+        .plan-list {
+            padding: 15px 0;
+
+            .item {
+                position: relative;
+                font-size: 14px;
+                line-height: 1.71;
+                color: $black-41;
+
+                &::before {
+                    content: '\2022';
+                    position: absolute;
+                    left: -30px;
+                }
+            }
+        }
+    }
+}
+
+
+// // Коррекция стилей для CHN
+// .body-page-chn {
+//     .project-plan {
+//         .plan-row {
+
+//             &.plan-row_first {
+//                 margin-bottom: 175px;
+
+//             }
+
+//             &.plan-row_second {
+//                 margin-bottom: 198px;
+//             }
+//         }
+//     }
+// }
+
+
+// // Коррекция стилей для ENG
+// .body-page-eng {
+//     .project-plan {
+//         .plan-row {
+
+//             &.plan-row_first {
+//                 margin-bottom: 60px;
+
+//             }
+
+//             &.plan-row_second {
+//                 margin-bottom: 155px;
+//             }
+//         }
+//     }
+// }

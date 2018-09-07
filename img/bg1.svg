@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1924px" height="2148px" viewBox="0 0 1924 2148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="56.3736979%" y1="93.0318709%" x2="89.0332031%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#458B76" offset="0%"></stop>
+            <stop stop-color="#102E42" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1924" height="2094"></rect>
+        <linearGradient x1="95.7421875%" y1="5.10551948%" x2="2.90147569%" y2="96.6497565%" id="linearGradient-4">
+            <stop stop-color="#616A79" offset="0%"></stop>
+            <stop stop-color="#2F3640" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.9577757%" y1="-9.10550019%" x2="60.290083%" y2="122.927524%" id="linearGradient-5">
+            <stop stop-color="#616A79" offset="0%"></stop>
+            <stop stop-color="#2F3640" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.9577757%" y1="-9.10550019%" x2="68.4685716%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#616A79" offset="0%"></stop>
+            <stop stop-color="#2F3640" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Investor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Baner-Landing-ICO" transform="translate(-7.000000, -6576.000000)">
+            <g id="Group-18" transform="translate(7.000000, 6576.000000)">
+                <g id="Group-3-Copy-4" transform="translate(0.000000, 54.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <rect id="Rectangle-4-Copy" fill="url(#linearGradient-4)" mask="url(#mask-3)" x="0" y="0" width="1924" height="2211"></rect>
+                </g>
+                <path d="M333.5,477.561628 C204.541511,477.561628 100,370.655816 100,238.780814 C100,106.905812 204.541511,0 333.5,0 C462.458489,0 567,106.905812 567,238.780814 C567,370.655816 462.458489,477.561628 333.5,477.561628 Z M334.212977,372.57098 C406.075341,372.57098 464.331298,312.997513 464.331298,239.509916 C464.331298,166.022319 406.075341,106.448852 334.212977,106.448852 C262.350613,106.448852 204.094656,166.022319 204.094656,239.509916 C204.094656,312.997513 262.350613,372.57098 334.212977,372.57098 Z" id="Combined-Shape-Copy-6" fill="url(#linearGradient-5)"></path>
+                <path d="M1520.58072,1512.56163 C1320.33292,1512.56163 1158,1346.5574 1158,1141.78081 C1158,937.004225 1320.33292,771 1520.58072,771 C1720.82853,771 1883.16144,937.004225 1883.16144,1141.78081 C1883.16144,1346.5574 1720.82853,1512.56163 1520.58072,1512.56163 Z M1521.68784,1349.53129 C1633.27631,1349.53129 1723.73664,1257.02511 1723.73664,1142.91297 C1723.73664,1028.80082 1633.27631,936.294653 1521.68784,936.294653 C1410.09937,936.294653 1319.63904,1028.80082 1319.63904,1142.91297 C1319.63904,1257.02511 1410.09937,1349.53129 1521.68784,1349.53129 Z" id="Combined-Shape-Copy-7" fill="url(#linearGradient-6)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

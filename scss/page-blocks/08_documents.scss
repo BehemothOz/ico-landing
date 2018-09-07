@@ -1,0 +1,48 @@
+.documents {
+    padding: 90px 0 120px;
+    background-color: $white;
+
+    color: $black-0;
+}
+
+.documents-title {
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.documents_list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    padding: 0 60px;
+}
+
+.documents_item {
+    // display: inline-block;
+    // vertical-align: middle;
+    font-size: 17px;
+}
+
+.documents_link {
+    position: relative;
+    display: block;
+    padding: 60px 0 0;
+    font-size: inherit;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 46px;
+        height: 54px;
+        top: 0;
+        left: 50%;
+        margin-left: -23px;
+
+        background: url('../img/ic-file.svg') no-repeat center;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

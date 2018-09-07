@@ -1,0 +1,54 @@
+.period {
+    padding: 50px 0 100px;
+    color: $white;
+
+    .period-title {
+        margin-bottom: 35px;
+    }
+
+    .stages {
+        @include cf();
+    }
+
+    .stages-item {
+        float: left;
+        width: calc(100% / 3);
+
+        .number {
+            width: 62px;
+            height: 62px;
+            margin-bottom: 22px;
+
+            font-size: 21px;
+            line-height: 2.8;
+            border: 1px solid $white;
+            border-radius: 50%;
+            text-align: center;
+
+            &.number-pre {
+                position: relative;
+
+                &::after {
+                    content: 'PRE-ICO';
+                    position: absolute;
+                    line-height: normal;
+                    width: 90px;
+                    top: 50%;
+                    right: -95px;
+                    margin-top: -12px
+                }
+            }
+        }
+
+        .date {
+            font-size: 21px;
+            line-height: 1.43;
+        }
+
+        .desc {
+            opacity: 0.5;
+            font-size: 17px;
+            line-height: 1.41;
+        }
+    }
+}

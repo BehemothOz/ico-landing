@@ -1,0 +1,86 @@
+.structure {
+    padding-bottom: 89px;
+    @include cf();
+
+    .description_heading {
+
+    }
+
+    .chart-block {
+        padding-top: 20px;
+        @include cf();
+
+        .markers {
+            float: left;
+            width: 320px;
+
+            .marker {
+                position: relative;
+                margin-bottom: 36px;
+                padding-left: 24px;
+                font-size: 21px;
+                line-height: 1.43;
+                color: $white;
+
+                .percentage {
+                    display: block;
+                    font-size: 50px;
+                    font-weight: 300;
+                    line-height: 50px;
+
+                    b {
+                        font-size: 40px;
+                        font-weight: 300;
+                        color: $black-7;
+                    }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 9px;
+                    left: 0;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                }
+
+                &.m-investors {
+                    &::before {
+                        background-color: $purple;
+                    }
+                }
+
+                &.m-founders {
+                    &::before {
+                        background-color: $yellow;
+                    }
+                }
+
+                &.m-award {
+                    &::before {
+                        background-color: $turquoise;
+                    }
+                }
+            }
+        }
+
+        .structure-chart {
+            position: relative;
+            float: left;
+            width: 384px;
+            height: 384px;
+            background: url('../img/chart.svg') no-repeat center;
+
+            .name {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                font-weight: 300;
+                color: $white;
+            }
+        }
+    }
+}
